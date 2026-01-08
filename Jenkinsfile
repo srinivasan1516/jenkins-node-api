@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repo') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/jenkins-node-api.git'
+                    url: 'https://github.com/srinivasan1516/jenkins-node-api.git'
             }
         }
 
