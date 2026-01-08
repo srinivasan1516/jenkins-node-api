@@ -8,7 +8,7 @@ app.use(express.json());
 app.use('/api/users', userRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Jenkins Auto Deployment Node API using git 🚀');
+  res.send('Jenkins Auto Deployment Node API using git and ec2 🚀');
 });
 
 const PORT = process.env.PORT || 4000;
